@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "bpstb/section-toggle-basic",
+  "version": "1.0.0",
+  "title": "Section Toggle Basic",
+  "category": "widgets",
+  "description": "The pricing table block helps users select the right package for your website.",
+  "keywords": ["section togglebasic"],
+  "textdomain": "section-collection",
+  "attributes": {
+    "themeStyle": {
+      "type": "object",
+      "default":{
+        "theme": "style-1"
+      }
+    },
+		"colors":{
+			"type":"object",
+			"default":{
+				"bgcolor": "#1255E6"
+			}
+		},
+    "align": {
+      "type": "string",
+      "default": "full"
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

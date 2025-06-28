@@ -1,0 +1,40 @@
+  // Inline style objects
+  .navbarStyle {
+    background-color: #007bff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+  };
+  .navItemStyle a{
+    list-style: none;
+    color :#d4dfe7;
+    text-decoration: none;
+  }
+
+ .logoStyle {
+    font-size: 24px;
+    font-weight: bold;
+  };
+
+  .navLinksStyle{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  };
+
+ .linkStyle  {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  };
+
+  .activeStyle {
+    text-decoration: underline;
+    color: yellow,
+  };

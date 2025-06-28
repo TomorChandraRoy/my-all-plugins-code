@@ -1,0 +1,21 @@
+$primaryColor: #4527a4;
+
+.bBlocksInspectorInfo {
+	padding: 6px;
+}
+
+.wp-block-bpstb-section-toggle-basic {
+	.span {
+		font-size: 14px;
+		color: red;
+		font-style: italic;
+		font-weight: 500;
+	}
+	.text {
+		color: rgba(255, 0, 0, 0.795);
+		font-style: italic;
+	}
+	.selectHelp{
+		color: #616063;
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "apiVersion": 2,
+  "name": "b-blocks/test-card",
+  "title": "Test Card",
+  "category": "widgets",
+  "icon": "format-quote",
+  "description": "A block for testimonial content.",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./build/index.js"
+}

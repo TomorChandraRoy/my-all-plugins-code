@@ -1,0 +1,28 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-bpstb-section-toggle-basic {
+  box-sizing: border-box;
+}
+.wp-block-bpstb-section-toggle-basic * {
+  box-sizing: border-box;
+}
+.wp-block-bpstb-section-toggle-basic .bBlocksPricingTableSection .main .style-h2 {
+  color: aqua;
+}
+.wp-block-bpstb-section-toggle-basic .bBlocksPricingTableSection .main .style-p {
+  color: rgb(0, 8, 6);
+  font-weight: 500;
+}
+.wp-block-bpstb-section-toggle-basic .bBlocksPricingTableSection .main-2 {
+  background-color: #4527a4;
+}
+.wp-block-bpstb-section-toggle-basic .bBlocksPricingTableSection .main-2 .style-2-h2 {
+  font-weight: 900;
+}
+.wp-block-bpstb-section-toggle-basic .bBlocksPricingTableSection .main-2 .style-2-p {
+  color: aquamarine;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=view.css.map*/

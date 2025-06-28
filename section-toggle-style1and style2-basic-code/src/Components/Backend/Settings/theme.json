@@ -1,0 +1,12 @@
+[
+    {
+        "label":"Style One",
+        "value":"style-1",
+        "content": "<!-- wp:bpstb/section-toggle-basic /-->"
+    },
+    {
+        "label":"Style Two",
+        "value":"style-2",
+        "content": "<!-- wp:bpstb/section-toggle-basic {\"themeStyle\":{\"theme\":\"style-2\"}} /-->"
+    }
+]

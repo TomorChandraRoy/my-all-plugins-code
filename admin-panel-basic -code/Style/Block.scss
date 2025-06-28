@@ -1,0 +1,38 @@
+.formStyle {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.labelStyle {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.inputStyle {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.buttonStyle {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.radioGroupStyle {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
