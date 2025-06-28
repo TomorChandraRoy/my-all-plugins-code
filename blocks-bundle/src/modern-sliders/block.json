@@ -1,0 +1,340 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "b-blocks/modern-sliders",
+  "version": "1.0.0",
+  "title": "modern-sliders",
+  "category": "bPlugins",
+  "description": "Short description of the modern-sliderss",
+  "keywords": ["modern", "sliders"],
+  "textdomain": "b-blocks",
+  "attributes": {
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "title": "First slide One",
+          "description": "Some representative placeholder content for the first slide.",
+          "image": "https://images.pexels.com/photos/247597/pexels-photo-247597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "background": {
+              "color": ""
+          },
+          "buttonName": "",
+          "buttonUrl": "https://pixabay.com/",
+          "buttonNewTab": false
+        },
+
+        {
+          "title": "Second slide Two",
+          "description": "Description of feature 2",
+          "image": "https://images.pexels.com/photos/259637/pexels-photo-259637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "buttonName": "",
+          "buttonUrl": "https://tastewp.com/",
+          "buttonNewTab": false
+        },
+
+        {
+          "title": "Third slide Three",
+          "description": "Some representative placeholder content for the Three slide.",
+          "image": "https://cdn.pixabay.com/photo/2024/11/19/12/30/whistling-wind-9208906_640.jpg",
+          "buttonName": "",
+          "buttonUrl": "https://www.facebook.com/",
+          "buttonNewTab": false
+        }
+      ]
+    },
+    "navigation": {
+      "type": "string",
+      "default": "horizontal" 
+    },
+    "buttonPosition": {
+      "type": "string",
+      "default": "horizontal"
+    },
+    "contentAlignment": {
+      "type": "string",
+      "default": "bottom center" 
+    },
+
+    "descriptionRespon" : { 
+      "type":"object",
+      "default":{
+        "desktop": "192px",
+        "tablet": "138px",
+        "mobile": "137px"
+      }
+  }, 
+    "sliderHeightRespon" : { 
+      "type":"object",
+      "default":{
+        "desktop": "500px",
+        "tablet": "300px",
+        "mobile": "250px"
+      }
+  },
+  "autoPlay":{
+    "type":"object",
+    "default":{
+      "status":false,
+      "delay":2000
+    }
+  },
+  "sliderNavigation": {
+    "type": "boolean",
+    "default": true 
+  }, 
+  "sliderPagination": {
+    "type": "boolean",
+    "default": true 
+  }, 
+  "sliderMouseWheel": {
+    "type": "boolean",
+    "default": true 
+  }, 
+  "slidersimulateTouch": {
+    "type": "boolean",
+    "default": false 
+  },
+  
+  "prevArrow": {
+    "type": "string",
+    "default": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288 480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128z'/></svg>"
+  },
+  "nextArrow": {
+    "type": "string",
+    "default": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z'/></svg>"
+  },
+  "headeingColor": {
+    "type": "string",
+    "default": "#ffffff"
+  },
+  "headeingMarginValues": {
+    "type": "object",
+    "default": {
+      "top": "5px",
+      "right": "0px",
+      "bottom": "5px",
+      "left": "0px"
+    }
+  },
+  "selectedAnimation": {
+    "type": "string",
+    "default": "side-in-left"
+  },
+  "animationDelay": {
+    "type": "number",
+    "default": 0
+  },
+  "animationDuration": {
+    "type": "number",
+    "default": 0.7
+  },
+  "typography": {
+    "type": "object",
+    "default": {
+      "fontFamily": "Default",
+      "fontCategory": "sans-serif",
+      "fontWeight": 100,
+      "fontSize": {
+        "desktop": 35,
+        "tablet": 27,
+        "mobile": 19
+      },
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "textDecoration": "auto",
+      "lineHeight": "135%",
+      "letterSpace": "0px"
+    }
+  },
+
+  "marginValues": {
+    "type": "object",
+    "default": {
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px"
+    }
+  },
+  "radiusValues": {
+    "type": "object",
+    "default": {
+      "top": "2px",
+      "right": "2px",
+      "bottom": "2px",
+      "left": "2px"
+    }
+  },
+  "color": {
+    "type": "string",
+    "default": "#4429274f"
+  },
+  "decTypography": {
+    "type": "object",
+    "default": {
+      "fontFamily": "Default",
+      "fontCategory": "sans-serif",
+      "fontWeight": 100,
+      "fontSize": {
+        "desktop": 25,
+        "tablet": 20,
+        "mobile": 15
+      },
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "textDecoration": "auto",
+      "lineHeight": "135%",
+      "letterSpace": "0px"
+    }
+  },
+
+  "decColor": {
+    "type": "string",
+    "default": "#ffffff"
+  },
+  "decMarginValues": {
+    "type": "object",
+    "default": {
+      "top": "5px",
+      "right": "0px",
+      "bottom": "5px",
+      "left": "0px"
+    }
+  },
+  "decAnimation": {
+    "type": "string",
+    "default": "side-in-right"
+  },
+  "decAnimationDelay": {
+    "type": "number",
+    "default": 0.7
+  },
+  "decAnimationDuration": {
+    "type": "number",
+    "default": 0.7
+  },
+  "buttonTypography": {
+    "type": "object",
+    "default": {
+      "fontFamily": "Default",
+      "fontCategory": "sans-serif",
+      "fontWeight": 500,
+      "fontSize": {
+        "desktop": 25,
+        "tablet": 20,
+        "mobile": 15
+      },
+      "fontStyle": "normal",
+      "textTransform": "uppercase",
+      "textDecoration": "auto",
+      "lineHeight": "135%",
+      "letterSpace": "0px"
+    }
+  },
+  "buttonAnimation": {
+    "type": "string",
+    "default": "zoom-in"
+  },
+  "buttonAnimationDelay": {
+    "type": "number",
+    "default": 0
+  },
+  "buttonAnimationDuration": {
+    "type": "number",
+    "default": 0.7
+  },
+  "colors": {
+    "type": "object",
+    "default": {
+      "color": "#FAFAFA",
+      "bgType": "solid",
+      "bg": "#610A0A00",
+      "gradient": "linear-gradient(135deg, #4527a4, #8344c5)"
+    }
+  },
+  "buttonHoverColor": {
+    "type": "object",
+    "default": {
+      "color": "#000000",
+      "bgType": "solid",
+      "bg": "#ffffff",
+      "gradient": "linear-gradient(135deg, #fe6601, #fbb040)"
+    }
+  },
+  "buttonBorder": {
+    "type": "object",
+    "default": {
+      "width": "3px",
+      "style": "solid",
+      "color": "#fafafa"
+    }
+  },
+  "buttonRadiusValues": {
+    "type": "object",
+    "default": {
+      "top": "3px",
+      "right": "3px",
+      "bottom": "3px",
+      "left": "3px"
+    }
+  },
+  "buttonPaddingValues": {
+    "type": "object",
+    "default": {
+      "top": "10px",
+      "right": "20px",
+      "bottom": "10px",
+      "left": "20px"
+    }
+  },
+  "arrayStyle": {
+    "type": "object",
+    "default": {
+      "arraySize": 30,
+      "arrayColor": "#0668f1",
+      "width": 50,
+      "height": 50,
+      "arrayBgColor": "",
+      "arrayRadius": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      }
+    }
+  },
+  "arrayWidth": {
+    "type": "string",
+    "default": "50px"
+  },
+  "arrayHeight": {
+    "type": "string",
+    "default": "50px"
+  },
+  "arrayBg": {
+    "type": "object",
+    "default": {
+      "color": "#0568f200",
+      "bgType": "solid",
+      "bg": "#9D131300",
+      "gradient": "linear-gradient(135deg, #4527a4, #8344c5)"
+    }
+  }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:../index.js",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,111 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dff9fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wp-block-b-blocks-price-card {
+  box-sizing: border-box;
+}
+.wp-block-b-blocks-price-card * {
+  box-sizing: border-box;
+}
+.wp-block-b-blocks-price-card .main-card-contener {
+  background-color: #dff9fb !important;
+  padding: 35px;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan {
+  background-color: #fff;
+  padding: 2.5rem;
+  margin: 33px 25px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan .h2 {
+  font-size: 23px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan .price {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan .features {
+  list-style-type: none;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan .features .li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan .features li {
+  margin: 8px;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan Button {
+  border: none;
+  width: 100%;
+  padding: 12px 35px;
+  margin-top: 1rem;
+  background-color: #6ab04c;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan:hover {
+  box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan.popular {
+  border: 2px solid #6ab04c;
+  position: relative;
+  transform: scale(1.08);
+}
+.wp-block-b-blocks-price-card .main-card-contener .pricing .plan.popular span {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #6ab04c;
+  color: #fff;
+  padding: 4px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.wp-block-b-blocks-price-card .main-card-contener .h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.wp-block-b-blocks-price-card .main-card-contener .p {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.wp-block-b-blocks-price-card .main-card-contener p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=view.css.map*/

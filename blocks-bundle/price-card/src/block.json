@@ -1,0 +1,273 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "b-blocks/price-card",
+  "version": "1.0.0",
+  "title": " Plan Card",
+  "category": "widgets",
+  "description": "Short description of the Plan Card Plugins",
+  "keywords": ["Plan Card"],
+  "textdomain": "b-blocks",
+  "attributes": {
+
+    "title": {
+      "type": "string",
+      "default": "Choose the plan that fits for your team"
+    },
+    "description": {
+      "type": "string",
+      "default": "Deploy your sites to global infrastructure in seconds. No credit card required"
+    },
+    "showUpdateDelete": {
+      "type": "boolean",
+      "default": true
+    },
+
+    "plans": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Dev",
+          "price": "FREE",
+          "features": [
+            {
+              "text": "Unlimited Websites",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            { "text": "1 User", "iconType": "fa-solid fa-circle-check" },
+            {
+              "text": "100MB Space/website",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            {
+              "text": "Continuous deployment",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            { "text": "No priority support", "iconType": "fa fa-times-circle" }
+          ],
+          "buttonLabel": "Signup",
+          "buttonUrl":"https://www.facebook.com/",
+          "isPopular": false,
+          "PopularText": "Most Popular",
+          "isVisible": true
+        },
+        {
+          "title": "Pro",
+          "price": "$10/month",
+          "features": [
+            {
+              "text": "Unlimited Websites",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            { "text": "5 Users", "iconType": "fa-solid fa-circle-check" },
+            {
+              "text": "512MB Space/website",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            {
+              "text": "Continuous deployment",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            { "text": "Email Support", "iconType": "fa-solid fa-circle-check" }
+          ],
+          "buttonLabel": "Buy Now",
+          "buttonUrl":"https://wp-gb.com/",
+          "isPopular": true,
+          "PopularText": "Most Popular",
+          "isVisible": true
+        },
+        {
+          "title": "Enterprise",
+          "price": "Custom Pricing",
+          "features": [
+            {
+              "text": "Unlimited Websites",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            {
+              "text": "Unlimited Users",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            {
+              "text": "Unlimited Space/website",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            {
+              "text": "Continuous deployment",
+              "iconType": "fa-solid fa-circle-check"
+            },
+            {
+              "text": "24/7 Email support",
+              "iconType": "fa-solid fa-circle-check"
+            }
+          ],
+
+          "buttonLabel": "Contact Us",
+          "buttonUrl":"https://www.linkedin.com/",
+          "isPopular": false,
+          "PopularText": "Most Popular",
+          "isVisible": true
+        }
+      ]
+    },
+
+    "headerStyle": {
+      "type": "object",
+      "default": {
+        "titleColor": "black",
+        "fontSize": 32,
+        "titleAlign": "center",
+        "titleMargin": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+
+    "headerDecStyle": {
+      "type": "object",
+      "default": {
+        "decColor": "black",
+        "decSize": 16,
+        "decAlign": "center",
+        "decMargin": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "4rem",
+          "left": "0px"
+        }
+      }
+    },
+
+    "planStyle": {
+      "type": "object",
+      "default": {
+        "planBackgroundColor": "rgba(255, 255, 255, 1)",
+        "planBackgroundColorOpacity": 1,
+        "planPadding": {
+          "top": "2.5rem",
+          "right": "2.5rem",
+          "bottom": "2.5rem",
+          "left": "2.5rem"
+        },
+        "planMargin": {
+          "top": "33px",
+          "right": "25px",
+          "bottom": "33px",
+          "left": "25px"
+        },
+        "planRadius": {
+          "top": "5px",
+          "right": "5px",
+          "bottom": "5px",
+          "left": "5px"
+        },
+
+        "planAlign": "center",
+
+        "planTitleStyle": {
+          "planTitleColor": "black",
+          "planTitleSize": 22,
+          "planTitleAlign": "center",
+          "planTitleMargin": {
+            "top": "0px",
+            "right": "0px",
+            "bottom": "12px",
+            "left": "0px"
+          }
+        },
+
+        "planPriceStyle": {
+          "priceColor": "black",
+          "priceSize": 30,
+          "priceAlign": "center",
+          "priceMargin": {
+            "top": "0px",
+            "right": "0px",
+            "bottom": "1rem",
+            "left": "0px"
+          }
+        },
+        "FeaturesStyle": {
+          "featureAlign": "left",
+          "featureliMagin": {
+            "top": "8px",
+            "right": "8px",
+            "bottom": "8px",
+            "left": "8px"
+          }
+        },
+        "buttonStyle": {
+          "buttonBackgroundColor": "#6ab04c",
+          "buttonBackgroundColorOpacity": 1,
+          "buttonPadding": {
+            "top": "12px",
+            "right": "35px",
+            "bottom": "12px",
+            "left": "35px"
+          },
+          "buttonFontSize": 16,
+          "buttonBorderRadius": {
+            "top": "5px",
+            "right": "5px",
+            "bottom": "5px",
+            "left": "5px"
+          },
+          "buttonColor": "rgba(255, 255, 255, 1)",
+          "buttonMargin": {
+            "top": "1rem",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "0px"
+          }
+        },
+
+        "popularStyle": {
+          "borderColor": "#6ab04c",
+          "badgeBackgroundColor": "#6ab04c",
+          "badgeColor": "rgba(255, 255, 255, 1)",
+          "badgeFontSize": 18,
+          "badgePadding": {
+            "top": "4px",
+            "right": "20px",
+            "bottom": "4px",
+            "left": "20px"
+          },
+          "badgeRadius": {
+            "top": "5px",
+            "right": "5px",
+            "bottom": "5px",
+            "left": "5px"
+          }
+        }
+      }
+    },
+    "shadow": {
+      "type": "array",
+      "default": [
+        {
+          "hOffset": "5px",
+          "vOffset": "7px",
+          "blur": "67px",
+          "spreed": "-28px",
+          "color": "rgba(0, 0, 0, 0.37)",
+          "isInset": false
+        }
+      ]
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

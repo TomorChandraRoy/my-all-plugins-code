@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dff9fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+$primaryColor: #4527a4;
+.wp-block-b-blocks-price-card {
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .main-card-contener {
+    background-color: #dff9fb !important;
+    padding: 35px;
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-family: "Source Sans Pro", sans-serif;
+
+      .plan {
+        background-color: #fff;
+        padding: 2.5rem;
+        margin: 33px 25px;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.3s;
+        cursor: pointer;
+        .h2 {
+          font-size: 23px;
+          margin-bottom: 12px;
+          font-weight: bold;
+        }
+
+        .price {
+          margin-bottom: 1rem;
+          font-size: 30px;
+        }
+        .features {
+          list-style-type: none;
+          // text-align: left;
+          .li {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+          }
+        }
+        .features li {
+          margin: 8px;
+        }
+        Button {
+          border: none;
+          width: 100%;
+          padding: 12px 35px;
+          margin-top: 1rem;
+          background-color: #6ab04c;
+          color: #fff;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+
+        &:hover {
+          box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
+        }
+        &.popular {
+          border: 2px solid #6ab04c;
+          position: relative;
+          transform: scale(1.08);
+          span {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #6ab04c;
+            color: #fff;
+            padding: 4px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    .h1 {
+      text-align: center;
+      margin-bottom: 0px;
+	  font-size: 32px;
+	  font-weight: 500;
+    }
+    .p {
+      margin-bottom: 4rem  ;
+      text-align: center;
+    }
+    // h1 {
+    //   text-align: center;
+    //   margin-bottom: 0px;
+    // }
+    p {
+      // margin-bottom: 4rem !important ;
+      text-align: center;
+    }
+  }
+}
